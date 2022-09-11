@@ -1,4 +1,5 @@
 var readlineSync = require('readline-sync');
+
 var score = 0
 var topScorers = [
   {
@@ -47,7 +48,7 @@ function play(question, answer) {
 }
 function greeting() {
   var playerName = readlineSync.question("Enter your name : \n");
-  console.log("\nGreetings, " + playerName + "!" + " This is the DO YOU KNOW PRIYANSHU? Quiz!\n");
+  console.log("\nGreetings, " + playerName + "!" + " This is the DO YOU KNOW MARVEL? Quiz!\n");
 }
 function quiz() {
   for (var i = 0; i < questions.length; i++) {
